@@ -1,0 +1,283 @@
+/* logo */
+.container-1 {
+  position: relative;
+  z-index: 500px;
+  text-align: center;
+  color: rgb(179, 170, 170) !important;
+}
+
+.top-left {
+  position: absolute;
+  z-index: 500;
+  top: 15px;
+  left: 40px;
+  color: rgb(214, 203, 203) !important;
+  /* mix-blend-mode: difference; */
+  font-size: 18px;
+  line-height: 1.2 !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+/* @media only screen and (max-width:1300px){
+  .top-left h2{
+      font-size: 14px;
+      left: 10%;
+      text-align: center;
+    
+      padding-top: 20%;
+      line-height: normal;
+  }
+  .top-left h4{
+      font-size: 10px;
+      margin-top: 0%;
+      line-height: normal;
+  }
+} */
+
+@media only screen  and (max-width:1341px) and (min-width:1291px){
+  .top-left h2{
+      font-size: 25px !important;  
+      padding-left: 20px;
+      padding-top: 8px;
+      line-height: 1.2 !important;
+  }
+  .top-left h4{
+      font-size: 15px !important;
+      padding-left: 10px;
+      margin-left: 15px;
+  }
+}
+@media only screen and (max-width:1291px) and (min-width:1201px){
+.top-left h2{
+    font-size: 22px !important;  
+    padding-left: 10px;
+    padding-top: 8px;
+    line-height: 1.2 !important;
+}
+.top-left h4{
+    font-size: 14px !important;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+}
+@media only screen and (max-width:1200px) and (min-width:1160px){
+.top-left h2{
+    font-size: 19px !important;  
+    padding-left: 0px;
+    padding-top: 0px !important;
+    margin-top: 9px !important;
+    line-height: 1.3 !important;
+}
+.top-left h4{
+    font-size: 13px !important;
+    padding-left: 0px;
+    margin-left: 15px;
+}
+}
+@media only screen and (max-width:1159px) and (min-width:1150px){
+.top-left h2{
+    font-size: 19px !important;  
+    line-height: 1.4 !important;
+    padding-top: 0px !important;
+    margin-top: 9px !important;
+
+}
+.top-left h4{
+    font-size: 12px !important;
+   
+}
+}
+
+@media only screen and (max-width:1149px) and (min-width:1124px){
+.top-left h2{
+    font-size: 16px !important;  
+    padding-top: 0px !important;
+    margin-top: 9px !important;
+margin-left: 0px !important;
+line-height: 1.4 !important;
+}
+.top-left h4{
+    font-size: 12px !important;
+    margin-left: 0px !important;
+}
+}
+
+@media only screen and (max-width:1123px) and (min-width:1103px){
+.top-left h2{
+    font-size: 14px !important;  
+    padding-top: 0px !important;
+    margin-top: 13px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    line-height: 1.5 !important;
+}
+.top-left h4{
+    font-size: 12px !important;
+    margin-left: 0px !important;
+}
+}
+
+@media only screen and (max-width:1102px) and (min-width:991px){
+.top-left h2{
+    font-size: 22px !important;  
+    padding-top: 5px !important;
+    margin-top: 40px !important;
+    margin-left: 190px !important;
+    padding-left: 190px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 14px !important;
+    margin-left: 270px !important;
+    padding-left: 100px !important;
+}
+}
+@media only screen and (max-width:990px) and (min-width:950px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 160px !important;
+    padding-left: 180px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 260px !important;
+    padding-left: 90px !important;
+}
+}
+
+@media only screen and (max-width:949px) and (min-width:884px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 150px !important;
+    padding-left: 170px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 250px !important;
+    padding-left: 80px !important;
+}
+}
+@media only screen and (max-width:883px) and (min-width:768px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 120px !important;
+    padding-left: 140px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 220px !important;
+    padding-left: 40px !important;
+}
+}
+@media only screen and (max-width:767px) and (min-width:684px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 90px !important;
+    padding-left: 110px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 160px !important;
+    padding-left: 40px !important;
+}
+}
+
+@media only screen and (max-width:683px) and (min-width:585px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 80px !important;
+    padding-left: 90px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 140px !important;
+    padding-left: 30px !important;
+}
+}
+
+@media only screen and (max-width:584px) and (min-width:541px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 60px !important;
+    padding-left: 80px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 120px !important;
+    padding-left: 20px !important;
+}
+}
+@media only screen and (max-width:540px) and (min-width:508px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 50px !important;
+    padding-left: 70px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 100px !important;
+    padding-left: 10px !important;
+}
+}
+
+@media only screen and (max-width:507px) and (min-width:440px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 30px !important;
+    padding-left: 50px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 70px !important;
+    padding-left: 5px !important;
+}
+}
+@media only screen and (max-width:439px) and (min-width:375px){
+  .top-left h2{
+    font-size: 25px !important;  
+    padding-top: 5px !important;
+    margin-top: 30px !important;
+    margin-left: 15px !important;
+    padding-left: 30px !important;
+    text-align: center;
+    line-height: 0.9 !important;
+}
+.top-left h4{
+    font-size: 15px !important;
+    margin-left: 50px !important;
+    padding-left: 0px !important;
+}
+}
+
