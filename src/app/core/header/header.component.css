@@ -90,11 +90,11 @@
     }
 }
 
-@media only screen and (max-width:100px) {
+/* @media only screen and (max-width:100px) {
     .cd-hero-slider h3 {
         font-size: 12px;
     }
- }
+ } */
 
  @media only screen and (max-width:991px) {
      .fixed-top {
