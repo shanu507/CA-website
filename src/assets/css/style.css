@@ -692,7 +692,7 @@ blockquote {
   width: 100%;
   box-shadow: none;
   background: none;
-  min-width: 340px;
+  min-width: fit-content;
   top: 100%;
   left: -10px;
   border-radius: 0;

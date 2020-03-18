@@ -158,17 +158,37 @@ table, th, td {
     
     .box:hover .heading{ bottom: -40%; }
 }
-@media only screen and (max-width: 1220px) and (min-width:400px){
-    .box .description{font-size: 10px;}
-    .box .title{font-size: 10px;
+@media only screen and (max-width: 1220px) and (min-width:639px){
+    .box .description{font-size: 13px;}
+    .box .title{font-size: 12px;
     line-height: normal;}
 }
-@media only screen and (max-width: 399px) and (min-width:100px){
+@media (max-width:640px) {
     .box .description{font-size: 8px;}
     .box .title{font-size: 7px;
     line-height: normal;}
 }
+@media only screen and (max-width: 399px) and (min-width:100px){
+    .box .description{font-size: 9px;}
+    .box .title{font-size: 9px;
+    line-height: normal;}
+}
+@media (max-width:477px) {
+    .team-social a {
+        width: 19px;
+    }
+}
 
+@media (max-width:320px) {
+    .team-social a {
+        width: 18px;
+    }
+}
+@media (max-width:374px) {
+    .team-social a {
+        width: 17px;
+    }
+}
 /* our service */
 .demo{ background: #e2e2e2; }
 .serviceBox{
@@ -221,9 +241,10 @@ table, th, td {
     color: #ececec
 }
 .serviceBox .description{
-    font-size: 15px;
+    font-size: 14px;
     line-height: 25px;
     margin: 0;
+    text-align: initial !important;
 }
 .serviceBox .read-more{
     display: block;
@@ -258,11 +279,11 @@ table, th, td {
 .serviceBox.red .read-more{background-color: #ad0e0c;}
 @media only screen and (max-width:990px){
     .serviceBox{ margin-bottom: 60px; }
-    .serviceBox .service-content{padding: 20px 15px 30px;
+    .serviceBox .service-content{padding: 20px 15px 30px;font-size: 13px;
         }
 }
 @media only screen and (max-width:767px){
-    .serviceBox{ margin-bottom: 130px; }
+    .serviceBox{ margin-bottom: 130px;font-size: 12px; }
 }
 
 /* slider for clients */
@@ -291,20 +312,13 @@ background: #707070;
     padding-left: 10px; 
     padding-right: 10px;
  }
-@media (max-width:768px) {
-    .map{
-        width: 550px;
-        height: 550px;
-    }
+ @media (max-width:1500px) {
+     .map{
+         width: 100%;
+         height: 100%;
+     }
+ }
 
-}
-@media (max-width:555px) {
-    .map{
-        width: 380px;
-        height: 550px;
-    }
-
-}
  
  /* logo */
  .container-1 {
