@@ -24,7 +24,7 @@
     "@types/google-maps": "^3.2.2",
     "angular-maps": "^6.0.3",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-bootstrap": "^5.5.0",
     "popper.js": "^1.16.1",
     "rxjs": "~6.4.0",
